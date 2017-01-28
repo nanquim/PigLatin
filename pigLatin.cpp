@@ -2,6 +2,16 @@
 #include <string>
 #include <algorithm>
 
+/* 
+  Código bem simples e de utilidade duvidosa. Tirei de uma lista de indicação de projetos pequenos do DreamInCode,
+  a "Martyr2'S Mega Project Ideas List!".
+  
+  Foi o primeiro programa com algum próposito que criei e me diverti escrevendo, gosto dele por isso.
+  
+                                                                        Criado por Juliana (nanquim) em 17/06/2016
+									com ajuda do SublimeText (L)
+*/
+
 /*RULES: 
 1. If a word starts with a consonant and a vowel, put the first letter of the word at the end of the word and add "ay."
 2. If a word starts with two consonants move the two consonants to the end of the word and add "ay."
@@ -67,5 +77,3 @@ void formatOutput(std::string& str){
 	std::transform(str.begin(), str.end(), str.begin(), ::tolower);
 	str[0] = toupper(str[0]);
 }
-
-//Criado por Juliana (nanquim) em 17/06/2016
