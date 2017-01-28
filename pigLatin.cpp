@@ -9,7 +9,7 @@
   Foi o primeiro programa com algum próposito que criei e me diverti escrevendo, gosto dele por isso.
   
                                                                         Criado por Juliana (nanquim) em 17/06/2016
-									com ajuda do SublimeText (L)
+									com SublimeText (L)
 */
 
 /*RULES: 
