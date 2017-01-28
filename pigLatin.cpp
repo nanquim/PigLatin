@@ -67,3 +67,5 @@ void formatOutput(std::string& str){
 	std::transform(str.begin(), str.end(), str.begin(), ::tolower);
 	str[0] = toupper(str[0]);
 }
+
+//Criado por Juliana (nanquim) em 17/06/2016
